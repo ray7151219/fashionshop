@@ -1,0 +1,27 @@
+# ===== 通用 =====
+.DS_Store
+Thumbs.db
+*.log
+
+# ===== Android / Gradle =====
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.dex
+*.class
+
+# ===== Java Web / Maven =====
+target/
+*.class
+
+# ===== 编辑器 / 系统 =====
+*.swp
+*.swo
+.vscode/

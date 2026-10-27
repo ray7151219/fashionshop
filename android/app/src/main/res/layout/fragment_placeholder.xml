@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <ImageView
+        android:id="@+id/iv_placeholder_icon"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:alpha="0.55"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_cart"
+        android:tint="@color/on_surface_variant" />
+
+    <TextView
+        android:id="@+id/tv_placeholder_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/on_background"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="购物车还是空的" />
+
+    <TextView
+        android:id="@+id/tv_placeholder_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        tools:text="加购心仪单品，下次再来看" />
+</LinearLayout>
